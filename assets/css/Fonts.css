@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Code";
+    src: url("/assets/fonts/Code.woff2");
+  }
+  @font-face {
+    font-family: "Crooga";
+    src: url("/assets/fonts/Crooga.ttf");
+  }
+  @font-face {
+    font-family: "Cursive";
+    src: url("/assets/fonts/Cursive.ttf");
+  }
+  @font-face {
+    font-family: "Figtree";
+    src: url("/assets/fonts/Figtree.ttf");
+  }
+  @font-face {
+    font-family: "Fonto";
+    src: url("/assets/fonts/Fonto.otf");
+  }
+  @font-face {
+    font-family: "Milk-";
+    src: url("/assets/fonts/Milk-.ttf");
+  }
+  @font-face {
+    font-family: "Milk";
+    src: url("/assets/fonts/Milk.ttf");
+  }
+  @font-face {
+    font-family: "Nexa+";
+    src: url("/assets/fonts/Nexa+.ttf");
+  }
+  @font-face {
+    font-family: "Nexa";
+    src: url("/assets/fonts/Nexa.ttf");
+  }
+  @font-face {
+    font-family: "Rubik";
+    src: url("/assets/fonts/Rubik.ttf");
+  }
+  @font-face {
+    font-family: "Slice";
+    src: url("/assets/fonts/Slice.woff2");
+  }
+  @font-face {
+    font-family: "Typo";
+    src: url("/assets/fonts/Typo.otf");
+  }
+  @font-face {
+    font-family: "Versel";
+    src: url("/assets/fonts/Versel.woff2");
+  }
+  @font-face {
+    font-family: "Open";
+    src: url("/assets/fonts/Open.woff2");
+  }
+  @font-face {
+    font-family: "MilkOld";
+    src: url("/assets/fonts/MilkOld.otf");
+  }
+  
