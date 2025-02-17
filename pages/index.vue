@@ -1,7 +1,5 @@
 <template>
   <div>
-    <LandingPageNavbar />
-    <LandingPageHero />
   </div>
 </template>
 
