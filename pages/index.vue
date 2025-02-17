@@ -1,4 +1,13 @@
 <template>
-    <h1>Everything works ⭐</h1>
-    <Test />
+  <div>
+    <LandingPageNavbar />
+    <LandingPageHero />
+  </div>
 </template>
+
+
+<style scoped>
+  div{
+    padding: 0 20%;
+  }
+</style>

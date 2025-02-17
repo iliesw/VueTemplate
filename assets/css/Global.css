@@ -1,48 +1,46 @@
 :root {
-    color-scheme: light;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Figtree", sans-serif;
-  }
+  color-scheme: light dark;
+}
 
-  button {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-  }
-  
-  
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #00000077;
-    border: 2px solid #f1f1f1;
-    border-radius: 10px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
 
-  ::-webkit-scrollbar-track {
-    background-color: #f1f1f100;
-  }
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
 
-  body{
-    background: #fbfbfb;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    margin: auto;
-    overflow-x: hidden;
 
-    page{
-      display: flex;
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-      height: 100vh;
-      width: 100vw;
-    }
-  }
+::-webkit-scrollbar-thumb {
+  background-color: light-dark(#00000077, #ffffff77);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f100;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: light-dark(#ffffff, #000000);
+}
+button{
+  padding: 0.3rem .8rem;
+  border: none;
+  border-radius: 50px;
+  background-color: light-dark(#000,#fff);
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+}

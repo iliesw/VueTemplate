@@ -48,3 +48,8 @@ export function sumArray(numbers: number[]): number {
 export function averageArray(numbers: number[]): number {
     return numbers.length ? sumArray(numbers) / numbers.length : 0;
 }
+
+
+export function lerp(start: number, end: number, t: number): number {
+    return start + t * (end - start);
+}
